@@ -12,9 +12,9 @@ namespace LINQ
             Console.WriteLine("------Method Syntax------");
             List<string> Games = new List<string>
             {
-                "call of duty warzone",//20
-                "rocket leage",//12
-                "elden ring",//10
+                "call of duty warzone",//4
+                "rocket leage",//3
+                "elden ring",//2
                 "ark" //1
             };
             //--------------------------------\\
@@ -29,9 +29,9 @@ namespace LINQ
             Console.WriteLine("------Query Syntax-------");
             List<string> Gamestwo = new List<string>
             {
-                "call of duty warzone",//20
-                "rocket leage",//12
-                "elden ring",//10
+                "call of duty warzone",//4
+                "rocket leage",//3
+                "elden ring",//2
                 "ark" //1
             };
             var Length = from GameX in Gamestwo
